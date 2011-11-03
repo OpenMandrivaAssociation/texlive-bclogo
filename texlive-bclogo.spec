@@ -1,3 +1,9 @@
+# revision 23305
+# category Package
+# catalog-ctan /graphics/bclogo
+# catalog-date 2011-08-01 12:18:46 +0200
+# catalog-license lppl
+# catalog-version 2.26
 Name:		texlive-bclogo
 Version:	2.26
 Release:	1
@@ -175,6 +181,7 @@ engine.
 %doc %{_texmfdistdir}/doc/latex/bclogo/brace.mps
 %doc %{_texmfdistdir}/doc/latex/bclogo/losanges.mps
 %doc %{_texmfdistdir}/doc/latex/bclogo/spir.mps
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -185,3 +192,5 @@ engine.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar metapost tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
