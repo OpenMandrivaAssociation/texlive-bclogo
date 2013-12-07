@@ -6,7 +6,7 @@
 # catalog-version 2.26
 Name:		texlive-bclogo
 Version:	2.26
-Release:	5
+Release:	6
 Summary:	Creating colourful boxes with logos
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/bclogo
