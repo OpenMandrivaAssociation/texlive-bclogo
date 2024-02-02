@@ -1,6 +1,6 @@
 Name:		texlive-bclogo
-Version:	39364
-Release:	2
+Version:	69578
+Release:	1
 Summary:	Creating colourful boxes with logos
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/bclogo
